@@ -1,0 +1,44 @@
+.default {
+    letter-spacing: 1px;
+    min-width: 80px;
+    font-size: 14px;
+    min-height: 20px;
+    border: none;
+    padding: 6px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    font-family: Raleway, sans-serif;
+}
+.default:focus {
+    outline: none;
+}
+
+.big {
+    min-width: 140px;
+    font-size: 18px;
+    min-height: 25px;
+}
+.small {
+    font-size: 14px !important;
+    min-width: 70px;
+    min-height: 15px;
+}
+
+.primary {
+    background: linear-gradient(45deg, hsla(323, 78%, 53%, 1) 28%, hsla(29, 74%, 69%, 1) 100%);
+}
+.primary:hover {
+    background: linear-gradient(45deg, hsla(29, 74%, 69%, 1) 28%,hsl(323, 78%, 53%)  100%);
+    cursor: pointer;
+}
+
+.secondary {
+    background-color: #3d3d43;
+}
+.secondary:hover {
+    cursor: pointer;
+    background-color: #323232;
+    transition-duration: 200ms;
+}

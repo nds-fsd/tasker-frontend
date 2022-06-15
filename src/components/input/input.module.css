@@ -1,0 +1,70 @@
+.root {
+    width: 100%;
+    letter-spacing: 1px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.input {
+    width: 100%;
+    border-radius: 6px;
+    cursor: text;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: white;
+    border: #37485a 1px solid;
+    height: 36px;
+    padding: 0 10px;
+    outline: 0;
+    font-size: 14px;
+    font-family: Raleway, sans-serif;
+    letter-spacing: 1px;
+}
+
+.default:focus{
+    outline: none;
+}
+
+
+.label {
+    padding: 0 10px;
+    color: #999;
+    pointer-events: none;
+    position: absolute;
+    transform: translate(0, 8px) scale(1);
+    transform-origin: top left;
+    transition: all 0.2s ease-out;
+    font-size: 14px;
+    font-family: Raleway, sans-serif;
+    letter-spacing: 1px;
+
+}
+
+.activeLabel {
+    transform: translate(3px, 0) scale(0.75);
+    color: #f2a365;
+}
+
+.activeInput {
+    border: 1px solid #f2a365;
+}
+
+.error {
+    border: 1px solid #ff0000;
+}
+.error:focus {
+    border: 1px solid #ff0000;
+}
+
+.spanError {
+    color: #ff0000;
+    font-size: 14px;
+}
+
+::placeholder {
+    color: #b0afaf;
+    font-family: 'Raleway', sans-serif;
+}

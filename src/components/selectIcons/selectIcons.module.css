@@ -1,0 +1,20 @@
+.spanIcon {
+    width: fit-content;
+    height: fit-content;
+    padding: 4px;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-right: 4px;
+}
+
+.select {
+    width: 110px;
+}
+.select:focus{
+    outline: none;
+    border: 1px solid #f2a365;
+}
