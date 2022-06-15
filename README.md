@@ -1,9 +1,8 @@
 # Tasker
 
-This is the frontend part of a two-repositories project. This project is an attempt to build a "tasker" app. This project was just an experiment meant to help me learn building a frontend and backend app.
-Just already is in construction.
+This is the frontend part of a two-repositories project. This project is an attempt to build a "tasker" app.
 
-##Libraries
+## Npm packages used
 - React
 - react-router
 - react-icons
@@ -16,6 +15,15 @@ Just already is in construction.
 
 In the project directory, you can run:
 
-### `yarn start`
+### `npm start`
 
 Runs frontend of the app. Expects the backend to be running on localhost:3001.
+
+### `npm lint:eslint:fix`
+
+Fixes all code styles problems enforced by eslint
+### `npm prettify`
+
+Fixes all code styles problems enforced by prettier
+
+
