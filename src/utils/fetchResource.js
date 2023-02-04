@@ -2,8 +2,8 @@ import queryString from 'query-string';
 import { getToken } from './sesion';
 
 const API_URL =
-  window.location.hostname === 'esther-tasker.netlify.app'
-    ? 'https://esther-tasker.herokuapp.com'
+  window.location.hostname === 'nuclio-tasker.netlify.app'
+    ? 'https://tasker-backend-production.up.railway.app'
     : 'http://localhost:5000';
 
 // Custom API error to throw
